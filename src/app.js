@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://ejemplo-6606e.web.app/",
+    origin: "https://ejemplo-6606e.firebaseapp.com",
     // preflightContinue: true,
     credentials: true,
   })
