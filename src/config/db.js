@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const MONGO_URL = "mongodb://localhost:27017/login";
+const MONGO_URL = "https://backend-3-ibpk.onrender.comlogin";
 
 export const connectDB = async () => {
   try {
